@@ -1,20 +1,12 @@
-// macros3.rs
+// This shopping list program isn't compiling! Use your knowledge of generics to
+// fix it.
 //
-// Make me compile, without taking the macro out of the module!
-//
-// Execute `rustlings hint macros3` or use the `hint` watch subcommand for a
+// Execute `rustlings hint generics1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
-mod macros {
-    macro_rules! my_macro {
-        () => {
-            println!("Check out my macro!");
-        };
-    }
-}
 
 fn main() {
-    my_macro!();
+    let mut shopping_list: Vec<&str> = Vec::new();
+    shopping_list.push("milk");
 }

@@ -1,10 +1,9 @@
-// generics2.rs
+// This shopping list program isn't compiling! Use your knowledge of generics to
+// fix it.
 //
-// This powerful wrapper provides the ability to store a positive integer value.
-// Rewrite it using generics so that it supports wrapping ANY type.
-//
-// Execute `rustlings hint generics2` or use the `hint` watch subcommand for a
+// Execute `rustlings hint generics1` or use the `hint` watch subcommand for a
 // hint.
+
 
 
 fn main() {
