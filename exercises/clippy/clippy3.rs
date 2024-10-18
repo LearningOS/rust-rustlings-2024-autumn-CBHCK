@@ -1,21 +1,12 @@
-// enums1.rs
-//
-// No hints this time! ;)
+// clippy2.rs
+// Make me compile! Execute `rustlings hint clippy2` for hints :)
 
-
-
-#[derive(Debug)]
-enum Message {
-    // TODO: define a few types of messages as used below
-    Quit,
-    Echo,
-    Move,
-    ChangeColor,
-}
 
 fn main() {
-    println!("{:?}", Message::Quit);
-    println!("{:?}", Message::Echo);
-    println!("{:?}", Message::Move);
-    println!("{:?}", Message::ChangeColor);
+    let mut res = 42;
+    let option = Some(12);
+    if let Some(x) = option {
+        res += x;
+    }
+    println!("{}", res);
 }
